@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Loja</h1>
-    <form action="db/produto/insertProduto.php">
+    <form action="db/produto/insertProduto.php" method="post" enctype="multipart/form-data">
         <label for="nome">Nome:</label>
         <input type="text" name="nome">
         <br>
@@ -18,6 +18,9 @@
             <option value="Padaria">Padaria</option>
             <option value="Restaurante">Restaurante</option>
         </select>
+        <br>
+        <label for="image">Foto</label>
+        <input type="file" name="foto" accept="image/*">
         <br>
         <input type="submit" value="Cadastro">
     </form>

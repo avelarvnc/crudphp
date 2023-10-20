@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Loja</h1>
-    <a href="cadProduto.html">Cadastrar produto</a>
+    <a href="cadProduto.php">Cadastrar produto</a>
 </body>
 </html>
